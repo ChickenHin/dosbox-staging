@@ -2,9 +2,9 @@ name: Update release notes preview
 permissions: read-all
 
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
   workflow_dispatch:
 
 env:
